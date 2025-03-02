@@ -51,24 +51,143 @@ main {
 section {
     min-height: 100vh;
 
-    background-color: black;
+    background-color: white;
 }
 
 section > div#caixa1 {
-    height: 50vh;
+    min-height: 50vh;
     display: flex;
     flex-flow: column;
     justify-content: space-evenly;
     align-items: center;
 
-    background-color: var(--Light-royal-blue);
+    background-image: radial-gradient(circle,hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    color: var(--Light-lavender);
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
 }
 
-div#caixa1 > p#p2 {
+div#caixa1 > h1 {
+    color: white;
+}
+
+div#caixa1 > div#number {
+    padding: 30px 0px;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    
+
+    background-image: linear-gradient(to bottom, var(--Violet-blue), var(--Light-slate-blue));
+    border-radius: 50%;
+}
+
+div#number > h1 {
+    color: white;
+
+    font-size: 3em;
+}
+
+div#number > p {
+    color: var(--Light-lavender);
+}
+
+div#caixa1 > p#pp {
+    padding: 5px;
     max-width: 70%;
 }
 
 section > div#caixa2 {
-    height: 50vh;
+    padding: 30px;
+    min-height: 50vh;
     background-color: white;
+}
+
+div#caixa2 > h1 {
+    margin-bottom: 35px;
+}
+
+div#caixa2 > div#cent {
+    display: grid;
+    gap: 10px 0px;
+}
+
+div.item {
+    padding: 15px 15px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    border-radius: 10px;
+}
+
+div.sub1 {
+    display: flex;
+}
+
+div#back1 {
+    background-color:  hsla(0, 100%, 67%, 0.082);
+}
+
+p#p1 {
+    color: var(--Light-red);
+
+    font-weight: bolder;
+}
+
+div#back2 {
+    background-color:  hsla(39, 100%, 56%, 0.088);
+}
+
+p#p2 {
+    color: var(--Orangey-yellow);
+
+    font-weight: bolder;
+}
+
+div#back3 {
+    background-color:  hsla(166, 100%, 37%, 0.068);
+}
+
+p#p3 {
+    color: var(--Green-teal);
+
+    font-weight: bolder;
+}
+
+div#back4 {
+    background-color:  hsla(234, 85%, 45%, 0.079);
+}
+
+p#p4 {
+    color: var(--Cobalt-blue);
+
+    font-weight: bolder;
+}
+
+img {
+    margin-right: 10px;
+
+    width: 100%;
+}
+
+a {
+    width: 100%;
+    margin-top: 25px;
+    padding: 18px 0px;
+    border-radius: 30px;
+
+    background-color: var(--Dark-gray-blue);
+    color: white;
+
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover {
+    background-color: var(--Light-royal-blue);
 }
