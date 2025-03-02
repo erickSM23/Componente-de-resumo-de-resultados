@@ -35,6 +35,12 @@
     section > div#caixa1 {
         min-height: 50vh;
     }
+
+    div#caixa1 > div#number {
+        height: 250px;
+        width: 250px;
+    }
+
     section > div#caixa2 {
         min-height: 50vh;
     }
