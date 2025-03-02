@@ -32,7 +32,10 @@
 }
 
 @media screen and (min-width: 1200px) {
-    body {
-        display: none;
+    section > div#caixa1 {
+        min-height: 50vh;
+    }
+    section > div#caixa2 {
+        min-height: 50vh;
     }
 }
