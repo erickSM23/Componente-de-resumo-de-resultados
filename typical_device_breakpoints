@@ -1,0 +1,17 @@
+/* 
+    Tablets: 768px a 991px 
+
+    Notebooks/Desktops pequenos: 992px a 1199px 
+
+    Desktops grandes: 1200px a 1919px
+
+    TVs e telas extragrandes: 1920px e acima 
+*/
+
+/* SIMPLIFICAÇÃO
+    Tablets: 768px a 991px
+
+    Desktops (abrangendo pequenos e grandes): 992px a 1919px
+
+    Telas extragrandes (TVs): 1920px e acima
+*/
