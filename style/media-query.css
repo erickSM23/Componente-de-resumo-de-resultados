@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 992px) {
+    section {
+        width: 55vw;
+        min-height: 100px;
+        overflow: hidden;
+
+        border-radius: 30px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.081);
+    }
+
+    section > div#caixa1 {
+        float: left;
+        width: 50%;
+        min-height: 75vh;
+
+        border-radius: 30px;
+    }
+
+    div#caixa1 > p#pp {
+        text-align: center;
+    }
+
+    section > div#caixa2 {
+        float: right;
+        width: 50%;
+        min-height: 75vh;
+
+        border-radius: 30px;
+    }
+}
